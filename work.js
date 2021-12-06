@@ -1,5 +1,5 @@
 var player1,p1,player2,p2;
-function aajam(){
+function players(){
 player1=Math.floor(Math.random()*6)+1;
 p1="images/dice"+player1+".png";
 player2=Math.floor(Math.random()*6)+1;
@@ -19,5 +19,5 @@ else
 {
     document.querySelector("h1").innerHTML="TIE 🤣 Refresh again";
 }
-}aajam();
+}players();
 
